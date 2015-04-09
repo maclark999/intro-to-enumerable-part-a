@@ -1,7 +1,16 @@
 def product(numbers)
+  result = 1
+  numbers.each do |number|
+    result = number * result
+  end
+  if result == 1
+    nil
+  else
+  result
+end
 end
 
-# ------ code above this line ------
+
 
 require 'rspec/autorun'
 

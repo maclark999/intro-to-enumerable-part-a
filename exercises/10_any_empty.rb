@@ -1,5 +1,6 @@
-
-# ------ code above this line ------
+def any_empty(words)
+  
+end
 
 require 'rspec/autorun'
 

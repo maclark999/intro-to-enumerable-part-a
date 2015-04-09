@@ -1,5 +1,11 @@
 def longest_word(words)
+  # words.max {|word, result| word.length <=> result.length}
+  words.max do |word, result|
+    word.length <=> result.length
+  end
 end
+
+
 
 # ------ code above this line ------
 

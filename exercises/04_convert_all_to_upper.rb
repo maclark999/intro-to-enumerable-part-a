@@ -1,7 +1,12 @@
 def convert_all_to_upper_case(words)
+  result = []
+  words.map do |word|
+    result << word.upcase
+  end
+  result
 end
 
-# ------ code above this line ------
+
 
 require 'rspec/autorun'
 
